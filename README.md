@@ -12,4 +12,4 @@ $response = $wrapper->createOrder("This is a body of order");
 print_r($response); //response will be like "{"body":"This is a body of order", "id":7}"
 //so its $response in our case is object already and we can use it like $response->body and do with it all what want
 ```
-:+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1:
+:+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1: :+1:HERES SOME LINES OF USAGE!!11

@@ -37,11 +37,15 @@ class CPWrapper {
 	    }
 	
 
-	public function createOrder($body){
+	public function createOrder($data){
 		$uri = '/api/orders';
-		$data = [
-			'body' => $body,
-		];
+		//проверим на строку
+
+		if(is_string($data)){
+				$data = [
+			'body' => $data,
+			];		
+		}
 		return $this->sendRequest($uri,$data);
 	}	
 }

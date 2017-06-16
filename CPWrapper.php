@@ -45,7 +45,10 @@ class CPWrapper {
 				$data = [
 			'body' => $data,
 			];		
+		} else {
+			$data['body'] = "Заявка с сайта ".$_SERVER['HTTP_HOST'];
 		}
+
 		return $this->sendRequest($uri,$data);
 	}	
 }
